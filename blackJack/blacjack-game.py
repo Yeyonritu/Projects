@@ -19,6 +19,7 @@ def total_score(card_hand):
     
     if ace_count > 0 and card_sum > 21:
         card_sum -= 10
+        ace_count -= 1
     
     return card_sum
 
